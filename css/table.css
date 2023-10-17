@@ -1,0 +1,72 @@
+.leaderboard {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tableHeader {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+    text-align: center;
+ }
+
+table tr td {
+    color: rgb(218, 216, 216);
+    border: 2px solid #2E6D7F;;
+ }
+
+.leader {
+    color: gold;
+    background-color: rgb(179, 10, 10);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.officer {
+    color: silver;
+    background-color: rgb(179, 10, 10);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.regular {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.true {
+    background-color: rgb(9, 114, 14);
+}
+
+.false {
+    background-color: rgb(179, 10, 10);
+}
+
+.postion {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tier {
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.name {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.total {
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+
+.monthly {
+    padding-left: 10px;
+    padding-right: 10px;
+}

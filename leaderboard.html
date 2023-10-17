@@ -1,0 +1,76 @@
+<html>
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #23272A;
+            font-family: "Lato";
+        }
+    </style>
+
+    <html oncontextmenu="return false;">
+
+        <head>
+            <title>SOB | Leaderboard</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+            <meta content="SOB" property="og:title" />
+            <meta content="SOB is a deeeepio clan dedicated to killing beaners" property="og:description" />
+            <meta content="https://discord.gg/dsCf9dryYG" property="og:url" />
+            <meta content="" property="og:image" />
+            <meta content="#36393F" data-react-helmet="true" name="theme-color" />
+            <link rel="icon" href="img/logo.png" type="image/icon type">    
+
+            <script src= "./js/script.js"></script>
+
+            <link rel="stylesheet" href="./css/navbar.css">
+            <link rel="stylesheet" href="./css/style.css">
+            <link rel="stylesheet" href="./css/table.css">
+        </head>
+
+        <script>
+            this.document.onkeydown = function(e) 
+            {
+                if (e.ctrlKey && (e.keyCode === 85 || e.keyCode === 16 || e.keyCode === 117)) 
+                {
+                    return false;
+                } 
+                else if(e.ctrlKey && (e.shiftKey && e.keyCode === 73))
+                {
+                    return false;
+                } 
+                else if(e.keyCode == 123)
+                {
+                    return false;
+                }
+            }
+        </script>  
+
+        <script>
+            getMembers();
+        </script>
+
+        <div class="navbar">
+        <p onclick="switchPage(`info.html`)">Info</p>
+        <p onclick="switchPage(`leaderboard.html`)">Leaderboard</p>
+        <p onclick="switchPage(`discord`)">Discord</p>
+        </div>
+
+        <center>
+            <h1>SOB Leaderboard</h1>
+            <p class = "warn">(*) The leaderboard updates roughly every 24 hours.</p>
+        </center>
+        <h1></h1>
+
+        <table class="leaderboard" id = "board">
+            <tr>
+            <td class = "tableHeader"><b>Postion (#)</b></td>
+            <td class = "tableHeader"><b>Role</b></td>
+            <td class = "tableHeader"><b>Tier</b></td>
+            <td class = "tableHeader"><b>Name</b></td>
+            <td class = "tableHeader"><b>Monthly Points</b></td>
+            <td class = "tableHeader"><b>Total Points</b></td>
+            </tr>
+        </table>
+</html>

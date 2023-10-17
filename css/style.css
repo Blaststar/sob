@@ -1,0 +1,38 @@
+body
+{
+  overflow-y: scroll
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #23272A;
+    border-radius: 10px;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: #15181a;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    font-size: 25;
+}
+p {
+    margin-left: auto;
+    margin-right: auto;
+    color: whitesmoke;
+    font-size: 22;
+}
+
+.warn {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 16px;
+    color: whitesmoke;
+}
